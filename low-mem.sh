@@ -37,5 +37,5 @@ cp ~/Scripts/.Xresources ~/ &
 rm -rf ~/Scripts
 
 sudo aptitude install pulseaudio pavucontrol zathura tty-clock compton-conf xterm htop vim neofetch neomutt isync msmtp pass notmuch mupdf scrot imagemagick polybar font-manager ranger slim compton python3-pip xorg i3lock feh telegram-desktop rofi -y
-sudo apt remove nano vim-tiny -y  && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && sudo reboot
+sudo apt remove nano vim-tiny -y && sudo apt autoremove && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && sudo reboot
 
